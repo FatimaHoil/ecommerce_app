@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 class AppWidget {
+  // Estilo en negrita para títulos medianos (ej. "Hola, Fatima")
   static TextStyle boldTextFeildStyle() {
     return const TextStyle(
       color: Colors.black,
@@ -9,6 +10,7 @@ class AppWidget {
     );
   }
 
+  // Estilo grande para encabezados principales (ej. "Comida Deliciosa")
   static TextStyle headlineTextFeildStyle() {
     return const TextStyle(
       color: Colors.black,
@@ -17,6 +19,7 @@ class AppWidget {
     );
   }
 
+  // Estilo tenue/gris para subtítulos y descripciones
   static TextStyle lightTextFeildStyle() {
     return const TextStyle(
       color: Colors.black38,
@@ -25,6 +28,7 @@ class AppWidget {
     );
   }
 
+  // Estilo semi-negrita para nombres de platillos y precios
   static TextStyle semiBoldTextFeildStyle() {
     return const TextStyle(
       color: Colors.black,

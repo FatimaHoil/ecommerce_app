@@ -16,7 +16,12 @@ class _HomeState extends State<Home> {
     return Scaffold(
       body: SingleChildScrollView(
         child: Container(
-          margin: const EdgeInsets.only(top: 50.0, left: 20.0, right: 20.0, bottom: 20.0),
+          margin: const EdgeInsets.only(
+            top: 50.0,
+            left: 20.0,
+            right: 20.0,
+            bottom: 20.0,
+          ),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
@@ -24,7 +29,7 @@ class _HomeState extends State<Home> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Text("Hola, Fatima", style: AppWidget.boldTextFeildStyle()),
+                  Text("Hola, ", style: AppWidget.boldTextFeildStyle()),
                   Container(
                     padding: const EdgeInsets.all(6),
                     decoration: BoxDecoration(
@@ -39,7 +44,10 @@ class _HomeState extends State<Home> {
                 ],
               ),
               const SizedBox(height: 20.0),
-              Text("Comida Deliciosa", style: AppWidget.headlineTextFeildStyle()),
+              Text(
+                "Comida Deliciosa",
+                style: AppWidget.headlineTextFeildStyle(),
+              ),
               Text(
                 "Descubre y ordena tus platillos favoritos",
                 style: AppWidget.lightTextFeildStyle(),
